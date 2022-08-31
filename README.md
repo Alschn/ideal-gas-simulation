@@ -76,7 +76,7 @@ docker build -t ideal-gas-simulation .
 Uruchomienie kontenera ze zbudowanym obrazem według schematu: `docker run -p <host_port>:<container_port> <image_tag>`
 
 ```
-docker run -p 3000:3000 ideal-gas-simulation --name ideal-gas-simulation
+docker run -p 3000:3000 ideal-gas-simulation
 ```
 
 Aplikacja dostępna będzie pod adresem: http://127.0.0.1:3000/ideal-gas-simulation/
